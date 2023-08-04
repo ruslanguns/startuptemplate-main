@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-css-starter-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "prod": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "serve": "npx serve -s ./public"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
