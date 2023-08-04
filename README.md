@@ -12,15 +12,19 @@ Follow the Getting Started guide and build websites with Tailwind CSS. Also, fol
 
         npm install
 
-3.  Build using Tailwind CSS
+3.  Build and watch changes in realtime using Tailwind CSS
 
-        npm run build
+        npm run watch
 
-4.  Serve
+4.  Serve in development mode
 
         npx serve -s ./public
 
-5.  Open the `public > index.html` file in your browser and you should see a heading styled with a gradient. If you don't see a gradient on the text, something went wrong.
+5.  Build for production
+
+        npm run prod
+
+6.  Open the `public > index.html` file in your browser and you should see a heading styled with a gradient. If you don't see a gradient on the text, something went wrong.
 
 ## How to use
 
