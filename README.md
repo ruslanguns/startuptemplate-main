@@ -8,7 +8,7 @@ Follow the Getting Started guide and build websites with Tailwind CSS. Also, fol
 
 1.  Download and install NPM - [A Beginner’s Guide to npm](https://www.sitepoint.com/npm-guide/)
 
-2.  Install dependencies (node v16)
+2.  Install dependencies (node v18+)
 
         npm install
 
@@ -20,11 +20,7 @@ Follow the Getting Started guide and build websites with Tailwind CSS. Also, fol
 
         npx serve -s ./public
 
-5.  Build for production
-
-        npm run prod
-
-6.  Open the `public > index.html` file in your browser and you should see a heading styled with a gradient. If you don't see a gradient on the text, something went wrong.
+5.  Open the `public > index.html` file in your browser and you should see a heading styled with a gradient. If you don't see a gradient on the text, something went wrong.
 
 ## How to use
 
